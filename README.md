@@ -97,7 +97,7 @@ This will ensure that all required libraries (such as `pandas`, `requests`, and 
 
 ## Get Help
 
-For assistance, users can refer to the comments within the project, providing insights into the written code. Additional clarification can be found in the Python documentation available at [Python Docs](https://docs.python.org/3/), or through numerous tutorials on Python, accessible on the W3Schools website at [W3Schools Python Tutorials](https://www.w3schools.com/python/default.asp). For further assistance, users can contact fellow project contributors. Additionally, the Palmer penguins dataset is widely used by data analysts to learn the fundamental tools of data analysis, and other projects using the dataset can be found online.
+For assistance, users can refer to the comments within the project, providing insights into the written code. Additional clarification can be found in the Python documentation available at [Python Docs](https://docs.python.org/3/), or through numerous tutorials on Python, accessible on the W3Schools website at [W3Schools Python Tutorials](https://www.w3schools.com/python/default.asp). For further assistance, users can contact fellow project contributors.
 
 ## Contributions
 
