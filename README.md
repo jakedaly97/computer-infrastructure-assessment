@@ -5,7 +5,18 @@ This repository contains the work for a project in the **Computer Infrastructure
 
 ## Automation with GitHub Actions  
 - A GitHub Actions workflow has been implemented to automate the daily execution of the `weather.sh` script.  
-- This workflow downloads the latest weather data, saves it in a timestamped file, and pushes the updates to this repository.  
+- This workflow downloads the latest weather data, saves it in a timestamped file, and pushes the updates to this repository.
+
+## Repository Contents  
+The repository includes the following files and directories:
+- **.github/workflows**: Directory containing GitHub Actions workflows for automating the script execution and pushing updates to the repository.
+- **/data**: Directory containing subdirectories for storing timestamp data and weather data.
+  - **/timestamps**: Contains the files `now.txt` and `formatted.txt` that store timestamp data.
+  - **/weather**: Stores downloaded weather data files in JSON format, with timestamped filenames.
+- **.gitignore**: A file that specifies which files and directories should be ignored by Git (e.g., virtual environments, temporary files).
+- **README.md**: This file, containing an overview of the project and how to use it.
+- **weather.ipynb**: A Jupyter Notebook summarizing the project, automating weather data collection, and analyzing it with pandas.
+- **weather.sh**: A bash script that automates the download and timestamping of weather data.
 
 ## Get Started  
 
