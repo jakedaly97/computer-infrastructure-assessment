@@ -15,6 +15,7 @@ The repository includes the following files and directories:
   - **/weather**: Stores downloaded weather data files in JSON format, with timestamped filenames.
 - **.gitignore**: A file that specifies which files and directories should be ignored by Git (e.g., virtual environments, temporary files).
 - **README.md**: This file, containing an overview of the project and how to use it.
+- **requirements.txt**: A file that lists the required Python packages for the project.
 - **weather.ipynb**: A Jupyter Notebook summarizing the project, automating weather data collection, and analyzing it with pandas.
 - **weather.sh**: A bash script that automates the download and timestamping of weather data.
 
