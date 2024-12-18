@@ -1,7 +1,7 @@
 # Computer Infrastructure Project: Data Analytics with Weather Data  
 
 ## Overview  
-This repository contains the work for a project in the **Computer Infrastructure** module, which is part of the Higher Diploma in Computing in Data Analytics. The project focuses on using command-line tools, shell scripting, and Python (via Jupyter Notebook) to manage and process data, automate workflows, and analyze weather data. The repository also includes an automated process using GitHub Actions to ensure that weather data is updated daily and pushed to the repository.
+This repository contains the work for a project in the Computer Infrastructure module, which is part of the Higher Diploma in Computing in Data Analytics. The project focuses on using command-line tools, shell scripting, and Python (via Jupyter Notebook) to manage and process data, automate workflows, and analyze weather data. The repository also includes an automated process using GitHub Actions to ensure that weather data is updated daily and pushed to the repository.
 
 ## Automation with GitHub Actions  
 - A GitHub Actions workflow has been implemented to automate the daily execution of the `weather.sh` script.  
@@ -37,7 +37,7 @@ The repository includes the following files and directories:
   ```  
 
 #### 2. Using Anaconda  
-- Ensure Anaconda is installed on your machine.  
+- Ensure [Anaconda](https://anaconda.org/anaconda/python) is installed on your machine.  
 - Navigate to the repository directory in your terminal.  
 - Create a new environment and install dependencies:  
   ```bash  
@@ -52,7 +52,7 @@ The repository includes the following files and directories:
 - Open `weather.ipynb` in your browser and run the notebook.  
 
 #### 3. Using Visual Studio Code  
-- Ensure VS Code and the Python extension are installed.  
+- Ensure [VS Code](https://code.visualstudio.com/) and the Python extension are installed.  
 - Open the repository directory in VS Code.  
 - Install the recommended extensions if prompted (Python, Jupyter).  
 - Open `weather.ipynb` and select your Python interpreter.  
