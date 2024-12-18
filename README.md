@@ -31,8 +31,8 @@ The repository includes the following files and directories:
 #### 1. Clone the Repository  
 - Open a terminal and clone this repository to your local machine:  
   ```bash  
-  git clone <repository-url>  
-  cd <repository-name>  
+  git clone <[repository-url](https://github.com/jakedaly97/computer-infrastructure-assessment)>  
+  cd <computer-infrastructure-assessment>  
   ```  
 
 #### 2. Using Anaconda  
