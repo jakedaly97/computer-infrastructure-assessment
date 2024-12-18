@@ -73,7 +73,22 @@ The repository includes the following files and directories:
   ```bash  
   ./weather.sh  
   ```  
+## Requirements File  
 
+The repository includes a `requirements.txt` file that lists the necessary Python packages for the project. To install the dependencies in this file, you can use **pip** after setting up your Python environment. Run the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+Alternatively, if you are using Anaconda, you can install the dependencies after creating and activating your environment with the following command:
+
+```bash
+conda activate weather_project
+pip install -r requirements.txt
+```
+
+This will ensure that all required libraries (such as `pandas`, `requests`, and others) are installed for the project to function correctly.
 ## Acknowledgments  
 - **Met Éireann**: For providing weather data.  
 - **data.gov.ie**: For detailed dataset documentation.  
