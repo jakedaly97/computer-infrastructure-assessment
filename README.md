@@ -105,5 +105,9 @@ Currently, Jake Daly is the sole contributor to this project.
 
 ## Author
 
-Jake Daly is a part-time student enrolled in the Higher Diploma in Science in Computing in Data Analytics course at Atlantic Technological University. For inquiries or further information, Jake Daly can be contacted via his student email at g00439324@atu.ie or through his personal email at jakedaly1997@hotmail.com.
+Jake Daly is a part-time student enrolled in the Higher Diploma in Science in Computing in Data Analytics course at Atlantic Technological University.
 
+For inquiries or further information, Jake can be contacted via:
+
+Student Email: g00439324@atu.ie
+Personal Email: jakedaly1997@hotmail.com
