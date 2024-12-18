@@ -1,26 +1,7 @@
 # Computer Infrastructure Project: Data Analytics with Weather Data  
 
 ## Overview  
-- This repository contains the work for a project in the **Computer Infrastructure** module, as part of the Higher Diploma in Computing in Data Analytics.  
-- The project focuses on using command-line tools, shell scripting, and Python (via Jupyter Notebook) to manage data, automate workflows, and analyze weather data.  
-- The repository also includes automation via GitHub Actions to ensure daily updates of weather data.  
-
-## Repository Structure  
-```
-/data  
-  /timestamps  
-  /weather  
-weather.ipynb  
-weather.sh  
-README.md  
-```  
-
-### Directory Details  
-- **/data**: Root directory for project data.  
-  - **/timestamps**: Contains timestamp-related files (`now.txt` and `formatted.txt`).  
-  - **/weather**: Stores downloaded weather data in JSON format.  
-- **weather.ipynb**: A Jupyter Notebook summarizing the project and analyzing weather data using pandas.  
-- **weather.sh**: A bash script to automate weather data downloads with timestamped filenames.  
+This repository contains the work for a project in the **Computer Infrastructure** module, which is part of the Higher Diploma in Computing in Data Analytics. The project focuses on using command-line tools, shell scripting, and Python (via Jupyter Notebook) to manage and process data, automate workflows, and analyze weather data. The repository also includes an automated process using GitHub Actions to ensure that weather data is updated daily and pushed to the repository.
 
 ## Automation with GitHub Actions  
 - A GitHub Actions workflow has been implemented to automate the daily execution of the `weather.sh` script.  
@@ -86,3 +67,16 @@ README.md
 - **Met Éireann**: For providing weather data.  
 - **data.gov.ie**: For detailed dataset documentation.  
 - **Higher Diploma in Computing in Data Analytics**: For the opportunity to work on this project.  
+
+## Get Help
+
+For assistance, users can refer to the comments within the project, providing insights into the written code. Additional clarification can be found in the Python documentation available at [Python Docs](https://docs.python.org/3/), or through numerous tutorials on Python, accessible on the W3Schools website at [W3Schools Python Tutorials](https://www.w3schools.com/python/default.asp). For further assistance, users can contact fellow project contributors. Additionally, the Palmer penguins dataset is widely used by data analysts to learn the fundamental tools of data analysis, and other projects using the dataset can be found online.
+
+## Contributions
+
+Currently, Jake Daly is the sole contributor to this project.
+
+## Author
+
+Jake Daly is a part-time student enrolled in the Higher Diploma in Science in Computing in Data Analytics course at Atlantic Technological University. For inquiries or further information, Jake Daly can be contacted via his student email at g00439324@atu.ie or through his personal email at jakedaly1997@hotmail.com.
+
