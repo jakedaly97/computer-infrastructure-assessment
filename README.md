@@ -90,21 +90,22 @@ pip install -r requirements.txt
 ```
 
 This will ensure that all required libraries (such as `pandas`, `requests`, and others) are installed for the project to function correctly.
-## Acknowledgments  
-- **Met Éireann**: For providing weather data.  
-- **data.gov.ie**: For detailed dataset documentation.  
-- **Higher Diploma in Computing in Data Analytics**: For the opportunity to work on this project.  
+
+## Resources
+- The lecture videos and content, taught in the computer infrastructure module, were used as a resource for this project.
+- [Chatgpt](https://chatgpt.com/) was used as a resource for automating the weather.sh script and writing the README.md file.
+- [Met Éireann](https://www.met.ie/) Provided the weather data.
+- [data.gov.ie](https://data.gov.ie/dataset/todays-weather-athenry) Weather dataset used for this project.
+- [GitHub Actions documentation](https://docs.github.com/en/actions) Documentaion for script automation in GitHub.
+ 
 
 ## Get Help
-
 For assistance, users can refer to the comments within the project, providing insights into the written code. Additional clarification can be found in the Python documentation available at [Python Docs](https://docs.python.org/3/), or through numerous tutorials on Python, accessible on the W3Schools website at [W3Schools Python Tutorials](https://www.w3schools.com/python/default.asp). For further assistance, users can contact fellow project contributors.
 
 ## Contributions
-
 Currently, Jake Daly is the sole contributor to this project.
 
 ## Author
-
 Jake Daly is a part-time student enrolled in the Higher Diploma in Science in Computing in Data Analytics course at Atlantic Technological University.
 
 For inquiries or further information, Jake can be contacted via:
