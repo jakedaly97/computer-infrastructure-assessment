@@ -1,32 +1,32 @@
-name: Weather Data Update
+name: Weather Data Update # The name of the GitHub Actions workflow
 
-on:
+on: # Specifies the triggers for the workflow
   schedule:
-    - cron: "0 10 * * *" # Runs daily at 10am UTC
-  workflow_dispatch: # Allows manual triggering of the workflow
+    - cron: "0 10 * * *" # Schedule trigger: runs daily at 10:00 AM UTC
+  workflow_dispatch: # Allows manual triggering of the workflow via the GitHub UI
 
-jobs:
-  update-weather-data:
-    runs-on: ubuntu-latest # Use a Linux virtual machine
+jobs: # Defines the jobs that will be executed
+  update-weather-data: # Name of the job
+    runs-on: ubuntu-latest # Specifies the operating system for the virtual machine (Linux)
 
-    steps:
+    steps: # Steps to execute within the job
       # Step 1: Checkout the repository
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - name: Checkout Repository # Description of the step
+        uses: actions/checkout@v3 # Action to check out the repository code into the runner
 
       # Step 2: Run the weather.sh script
-      - name: Run Weather Script
+      - name: Run Weather Script # Description of the step
         run: |
-          chmod +x ./weather.sh # Ensure the script is executable
-          ./weather.sh
+          chmod +x ./weather.sh # Makes the weather.sh script executable
+          ./weather.sh # Executes the weather.sh script
 
       # Step 3: Commit and Push Changes
-      - name: Commit and Push Changes
+      - name: Commit and Push Changes # Description of the step
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Update weather data"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use GitHub token for authentication
+          git config --global user.name "GitHub Actions" # Configures the Git user name for commits
+          git config --global user.email "actions@github.com" # Configures the Git user email for commits
+          git add . # Adds all changes in the repository to the staging area
+          git commit -m "Update weather data" # Creates a commit with a specified message
+          git push # Pushes the commit to the remote repository
+        env: # Defines environment variables for this step
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Uses a secret token to authenticate with the GitHub repository
